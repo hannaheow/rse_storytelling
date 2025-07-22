@@ -1,0 +1,115 @@
+---
+title: "County Health Rankings & Roadmaps"
+subtitle: "Archival Process" 
+author: ""
+format:
+  revealjs:
+    theme: simple
+    title-slide-attributes:
+      data-background-image: CHRR_orangesquare.jpg
+      data-background-size: cover
+      data-background-position: center
+      data-background-repeat: no-repeat
+---
+
+## Public Health + Data
+
+::: incremental
+-   [County Health Rankings & Roadmaps (CHR&R)](https://www.countyhealthrankings.org/health-data)
+-   Data -\> Action
+-   Broad audience: students, researchers, public health professionals, journalists
+-   Lots of places to find similar data: our strengths are our documentation, accessibility, and longevity (since 2011)
+-   Members of CHR&R produce podcasts, write research manuscripts, solicit proposals for research grants, and create webinars, among other things!
+:::
+
+::: notes
+:::
+
+## "The Rankings"
+
+::: incremental
+-   "The Rankings" are an annual [snapshot](https://www.countyhealthrankings.org/health-data/minnesota/olmsted?year=2025) of how counties in the U.S. stack up in terms of health factors and outcomes (life expectancy, access to exercise opportunities, etc.)
+-   \~ 3140 US counties
+-   \~ 100 measures of health
+-   2011 through 2025.5
+:::
+
+::: notes
+add something about who i am within chrr here too (just verbal)
+:::
+
+## Archiving
+
+After July 2026, all CHR&R staff will be let go
+
+After December 2026, the CHR&R website will cease to exist
+
+::: incremental
+-   Publish existing projects
+-   Move data and documentation to GitHub
+-   Find creative ways to use the time and data that we have
+:::
+
+## Previous work flow
+
+::: incremental
+-   Primarily SAS
+
+-   Everything stored on the P-drive
+
+-   Every step is done twice (initial calculation, duplication, verification, aggregate calculations, trends)
+
+-   Carefully thought out architecture but inherently inflexible
+:::
+
+![](images/pdrive_screengrab.jpg){fig-align="center"}
+
+## New work flow
+
+::: incremental
+-   A work in progress!
+
+-   We're writing what we can in R/quarto and encouraging everyone to contribute even if they are not R users
+
+-   We plan to solicit feedback from non-GitHub users
+:::
+
+## Challenges
+
+::: incremental
+-   Keep the good parts without recreating the wheel
+
+-   A lot to learn all at once
+
+-   We need to continue to communicate what's possible without over-selling
+
+-   Tension between what is useful to someone interested in analyzing the data versus someone who only needs their county's demographic profile (for instance)
+
+-   The ease of our "snapshot" cannot be migrated to GitHub
+
+-   Some things will be lost :(
+:::
+
+## Opportunities
+
+::: incremental
+-   A big shake up! We would never have made a move like this if not for our funding loss
+-   Lots of new skills! (especially great because many of us are on the job market)
+-   Our audience is expanding!
+-   Discussions tab!
+:::
+
+## Lessons learned
+
+::: incremental
+-   Done is better than perfect
+
+-   Leadership and teamwork are important! At CHR&R we are lucky to work with great leadership.
+
+-   One or two team members can make a huge impact
+:::
+
+# Please check us out!
+
+-   GitHub: [CHRR Measure Calculations GitHub](#0)
+-   Submissions for our [2025 Data Viz Challenge](https://www.countyhealthrankings.org/findings-and-insights/blog/announcing-chrrs-2025-data-viz-challenge) are due on Aug 1!
